@@ -176,9 +176,9 @@ const Chat = (props: any) => {
                     BizChat
                   </h1>
                   <div className="flex items-center justify-center gap-2">
-                    <div className="relative w-full md:w-1/3 lg:w-1/6">
+                    <div className="relative w-1/2 md:w-1/3 lg:w-1/4">
                       <button
-                        className="relative flex w-full cursor-default flex-col rounded-md border border-black/10 bg-white py-2 pl-3 pr-10 text-left focus:border-gray-400 focus:outline-none focus:ring-1 focus:ring-gray-400 dark:border-white/20 dark:bg-gray-800 sm:text-sm align-center"
+                        className="relative flex w-full cursor-default flex-col rounded-md border border-black/10 bg-white py-2 pl-3 pr-4 text-left focus:border-gray-400 focus:outline-none focus:ring-1 focus:ring-gray-400 dark:border-white/20 dark:bg-gray-800 sm:text-sm align-center"
                         id="headlessui-listbox-button-:r0:"
                         type="button"
                         onClick={(e) => onButtonPress(e, "What are the different business packages available at DMCC for setting up a business?")}
@@ -193,7 +193,7 @@ const Chat = (props: any) => {
                           </span>
                         </span>
                         <label
-                          className="block text-xs text-gray-700 dark:text-gray-500 line-clamp-1"
+                          className="block text-xs text-gray-700 dark:text-gray-500 truncate"
                           id="headlessui-listbox-label-:r1:"
                           data-headlessui-state=""
                         >
@@ -201,9 +201,9 @@ const Chat = (props: any) => {
                         </label>
                       </button>
                     </div>
-                    <div className="relative w-full md:w-1/3 lg:w-1/6">
+                    <div className="relative w-1/2 sm:w-1/2 md:w-1/3 lg:w-1/4">
                       <button
-                        className="relative flex w-full cursor-default flex-col rounded-md border border-black/10 bg-white py-2 pl-3 pr-10 text-left focus:border-gray-400 focus:outline-none focus:ring-1 focus:ring-gray-400 dark:border-white/20 dark:bg-gray-800 sm:text-sm align-center"
+                        className="relative flex w-full cursor-default flex-col rounded-md border border-black/10 bg-white py-2 pl-3 pr-4 text-left focus:border-gray-400 focus:outline-none focus:ring-1 focus:ring-gray-400 dark:border-white/20 dark:bg-gray-800 sm:text-sm align-center"
                         id="headlessui-listbox-button-:r0:"
                         type="button"
                         onClick={(e) => onButtonPress(e, "What are the specific document requirements I need before starting the application process?")}
@@ -218,7 +218,7 @@ const Chat = (props: any) => {
                           </span>
                         </span>
                         <label
-                          className="block text-xs text-gray-700 dark:text-gray-500 line-clamp-1"
+                          className="block text-xs text-gray-700 dark:text-gray-500 truncate"
                           id="headlessui-listbox-label-:r1:"
                           data-headlessui-state=""
                         >
@@ -229,9 +229,9 @@ const Chat = (props: any) => {
                     
                   </div>
                   <div className="flex items-center justify-center gap-2 pb-12">
-                  <div className="relative w-full md:w-1/3 lg:w-1/6">
+                  <div className="relative w-1/2 md:w-1/3 lg:w-1/4">
                       <button
-                        className="relative flex w-full cursor-default flex-col rounded-md border border-black/10 bg-white py-2 pl-3 pr-10 text-left focus:border-gray-400 focus:outline-none focus:ring-1 focus:ring-gray-400 dark:border-white/20 dark:bg-gray-800 sm:text-sm align-center"
+                        className="relative flex w-full cursor-default flex-col rounded-md border border-black/10 bg-white py-2 pl-3 pr-4 text-left focus:border-gray-400 focus:outline-none focus:ring-1 focus:ring-gray-400 dark:border-white/20 dark:bg-gray-800 sm:text-sm align-center"
                         id="headlessui-listbox-button-:r0:"
                         type="button"
                         onClick={(e) => onButtonPress(e, "What's the minimum capital requirement to set up a company in DMCC?")}
@@ -246,17 +246,17 @@ const Chat = (props: any) => {
                           </span>
                         </span>
                         <label
-                          className="block text-xs text-gray-700 dark:text-gray-500 line-clamp-1"
+                          className="block text-xs text-gray-700 dark:text-gray-500 truncate"
                           id="headlessui-listbox-label-:r1:"
                           data-headlessui-state=""
                         >
-                          What is the minimum capital requirement to set up a company in DMCC?
+                          Whats the minimum capital requirement to set up a company in DMCC?
                         </label>
                       </button>
                     </div>
-                    <div className="relative w-full md:w-1/3 lg:w-1/6">
+                    <div className="relative w-1/2 md:w-1/3 lg:w-1/4">
                       <button
-                        className="relative flex w-full cursor-default flex-col rounded-md border border-black/10 bg-white py-2 pl-3 pr-10 text-left focus:border-gray-400 focus:outline-none focus:ring-1 focus:ring-gray-400 dark:border-white/20 dark:bg-gray-800 sm:text-sm align-center"
+                        className="relative flex w-full cursor-default flex-col rounded-md border border-black/10 bg-white py-2 pl-3 pr-4 text-left focus:border-gray-400 focus:outline-none focus:ring-1 focus:ring-gray-400 dark:border-white/20 dark:bg-gray-800 text-sm align-center"
                         id="headlessui-listbox-button-:r0:"
                         type="button"
                         onClick={(e) => onButtonPress(e, "What is the difference between the Basic Biz Package and the Jump Start Package?")}
@@ -265,13 +265,11 @@ const Chat = (props: any) => {
                         data-headlessui-state=""
                         aria-labelledby="headlessui-listbox-label-:r1: headlessui-listbox-button-:r0:"
                       >
-                        <span className="inline-flex w-full truncate">
-                          <span className="flex h-6 items-center gap-1 truncate text-white">
+                        <label className="flex h-6 items-center gap-1 text-white truncate text-ellipsis">
                           Basic Biz Package Vs Jump Start Package
-                          </span>
-                        </span>
+                        </label>
                         <label
-                          className="block text-xs text-gray-700 dark:text-gray-500 line-clamp-1"
+                          className="block text-xs text-gray-700 dark:text-gray-500 truncate"
                           id="headlessui-listbox-label-:r1:"
                           data-headlessui-state=""
                         >
