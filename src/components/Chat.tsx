@@ -250,7 +250,7 @@ const Chat = (props: any) => {
                           id="headlessui-listbox-label-:r1:"
                           data-headlessui-state=""
                         >
-                          What's the minimum capital requirement to set up a company in DMCC?
+                          What is the minimum capital requirement to set up a company in DMCC?
                         </label>
                       </button>
                     </div>
