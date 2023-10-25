@@ -1,3 +1,5 @@
+// TODO: This is not going to be used Remove this 
+
 import { useEffect } from "react";
 import mixpanel from "mixpanel-browser";
 import useAppState from "./useAppState";
@@ -14,7 +16,6 @@ function useAnalytics() {
     });
 
     // Set this to a unique identifier for the user performing the event
-    mixpanel.identify(userId);
 
     // Set user properties, including the username
     mixpanel.people.set({
