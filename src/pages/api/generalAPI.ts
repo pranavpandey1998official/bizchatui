@@ -1,7 +1,7 @@
 import axios  from "axios"
 
 const API_KEY =  "923adjhb-288cbjSudhuido-828bchbcj"
-const BACKEND_URL = "http://40.78.3.188"
+const BACKEND_URL = "https://bizchat-agent.fly.dev"
 
 
 export type Response = { error?: string, message?: string, chatId?: string};
